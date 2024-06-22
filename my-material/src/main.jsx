@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider>
 
-     <NavbarSimple />
+   
       <Content />
       <ActivitiesTimeline />
       <CardWithLink />
