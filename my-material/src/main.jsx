@@ -10,6 +10,7 @@ import NavbarSimple from "./Navbar.jsx"
 import "./index.css"; 
 
 import { ThemeProvider } from "@material-tailwind/react";
+import SimpleRegistrationForm from "./Form.jsx";
 
 
 
@@ -19,11 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ThemeProvider>
 
      <NavbarSimple />
-      <Content />
-      <ActivitiesTimeline />
-      <CardWithLink />
-      <App />
-      <About />
+      <SimpleRegistrationForm />
       <SimpleFooter />
       
     </ThemeProvider>
